@@ -9,6 +9,7 @@
 
 from SmartFundsManagerAPI.Utilities.Logger import *
 from settings import settings
+from SmartFundsManagerAPI import app
 
 if __name__ == '__main__':
     try:
