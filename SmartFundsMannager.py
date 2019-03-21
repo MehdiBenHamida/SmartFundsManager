@@ -13,6 +13,8 @@ from SmartFundsManagerAPI import app
 
 if __name__ == '__main__':
     try:
-        log_info("Application running at on \"http://" + settings.host + ":" + str(settings.port) + "/\"")
+        log_info("Application running at on \"http://" + settings["application"]["host"] + ":" +
+                 str(settings["application"]["port"]) + "/\"", "00000")
+        app.run(host=settings["application"]["host"], port=settings["application"]["port"], debug=True)
     except Exception as e:
         log_error(str(e), '00000')
