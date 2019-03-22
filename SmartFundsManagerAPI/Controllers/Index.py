@@ -1,3 +1,11 @@
+"""
+ # Title: Smart Fund Manager
+ # File: Index.py
+ # Description: The application default controller
+ # Author: Mèhdi Ben Hamida
+ # Company: **************
+"""
+
 from flask import Blueprint
 from SmartFundsManagerAPI.Utilities.Logger import *
 
