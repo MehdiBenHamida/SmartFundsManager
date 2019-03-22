@@ -8,14 +8,14 @@
 """
 
 from SmartFundsManagerAPI.Utilities.Logger import *
-from settings import settings
+from SmartFundsManagerAPI.Utilities.settings import settings
 from SmartFundsManagerAPI import app
 
 if __name__ == '__main__':
     try:
         log_info("Application running at on \"http://" + settings["application"]["host"] + ":" +
-                 str(settings['application']['port']) + "/\"", "00000")
+                 str(settings['application']['port']) + "/\"", "local")
         app.run(host=settings['application']['host'], port=settings['application']['port'],
                 debug=settings['application']['debug'])
     except Exception as e:
-        log_error(str(e), '00000')
+        log_error(str(e), "local")

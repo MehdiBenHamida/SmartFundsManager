@@ -8,7 +8,7 @@
 
 import os
 import pkg_resources
-from settings import settings
+from SmartFundsManagerAPI.Utilities.settings import settings
 from datetime import datetime
 from SmartFundsManagerAPI.Utilities.Colors import Colors
 
@@ -71,7 +71,7 @@ def log_info(msg, code):
                     break
     except Exception as e:
         time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print(Colors.ERROR+'['+time+']:[ERROR]:[0]:(not in log file)'+str(e)+Colors.ENDC)
+        print(Colors.ERROR+'['+time+']:[ERROR]:[local]:(not in log file)'+str(e)+Colors.ENDC)
 
 
 def log_error(msg, code):
@@ -111,7 +111,7 @@ def log_error(msg, code):
                     break
     except Exception as e:
         time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print(Colors.ERROR+'['+time+']:[ERROR]:[1]:(not in log file)'+str(e)+Colors.ENDC)
+        print(Colors.ERROR+'['+time+']:[ERROR]:[local]:(not in log file)'+str(e)+Colors.ENDC)
 
 
 def log_warning(msg, code):
@@ -151,4 +151,4 @@ def log_warning(msg, code):
                     break
     except Exception as e:
         time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print(Colors.ERROR+'['+time+']:[ERROR]:[2]:(not in log file)'+str(e)+Colors.ENDC)
+        print(Colors.ERROR+'['+time+']:[ERROR]:[local]:(not in log file)'+str(e)+Colors.ENDC)
