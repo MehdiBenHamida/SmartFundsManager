@@ -1,5 +1,5 @@
 # Smart Funds Manager (in progress)
-*Python flask REST API for for funds ansd smart life management*
+*Python flask REST API for for funds and smart life management*
 
 ## About the software
 
@@ -7,7 +7,7 @@
 
 #### Install required packages
 
-* First install a python interpretor (python 3.6.x recommended)
+* First install a python interpreter (python 3.x.x recommended)
 * Install ```pip``` the python package management system:
 
 1. *windows:* check this [link](https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation)
