@@ -28,5 +28,5 @@ $ pip install -r requirement.txt
 To install the application entirely on one line command:
 
 ```bash
-python setup.py install
+$ python setup.py install
 ```
