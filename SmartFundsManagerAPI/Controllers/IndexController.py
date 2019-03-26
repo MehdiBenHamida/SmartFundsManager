@@ -1,6 +1,6 @@
 """
  # Title: Smart Fund Manager
- # File: Index.py
+ # File: IndexController.py
  # Description: The application default controller
  # Author: Mèhdi Ben Hamida
  # Company: **************

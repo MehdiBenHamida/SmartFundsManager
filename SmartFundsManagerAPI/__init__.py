@@ -9,18 +9,27 @@
 from flask import Flask
 from flask_marshmallow import Marshmallow
 from flask_cors import CORS, cross_origin
+from flask_sqlalchemy import SQLAlchemy
+import os
+
+# make the base directory for the application
+basedir = os.path.abspath(os.path.dirname(__file__))
 
 # create the flask app here
 app = Flask(__name__)
+app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False
 
-# apply marshmallow flask on the flask application
+# initialize marshmallow
 ma = Marshmallow(app)
 
-# define and apply the rules of CORS
+# initialize sql_alchemy
+db = SQLAlchemy(app)
+
+# initialize cross origin policy
 cors = CORS(app)
 
 # import the blueprints
-from SmartFundsManagerAPI.Controllers.Index import index
+from SmartFundsManagerAPI.Controllers.IndexController import index
 
 # register the blueprints here
 app.register_blueprint(index)
