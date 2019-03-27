@@ -17,8 +17,8 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 # create the flask app here
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = ''
-app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'db.sqlite')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # initialize marshmallow
 ma = Marshmallow(app)

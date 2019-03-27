@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c17cce-417a-4c26-832d-df62d3fdfa9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/DatabaseMigration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartFundsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartFundsManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartFundsManagerAPI/Models/IndexModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/Models/IndexModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/Logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/Settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +16,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.8054435">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/requirements.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -33,7 +29,7 @@
             <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/IndexModel.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="534">
-                  <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+                  <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -61,11 +57,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/DatabaseMigration.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
                 </state>
               </provider>
             </entry>
@@ -82,20 +78,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
-                  <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+                <state relative-caret-position="211">
+                  <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
                   <folding>
                     <element signature="e#197#220#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/setup.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -190,10 +177,10 @@
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/settings.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Models/__init__.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py" />
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Models/IndexModel.py" />
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/DatabaseMigration.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py" />
       </list>
     </option>
   </component>
@@ -220,24 +207,6 @@
               <item name="SmartFundsManager API" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartFundsManager" type="462c0819:PsiDirectoryNode" />
               <item name="SmartFundsManagerAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartFundsManager API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartFundsManager" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartFundsManagerAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartFundsManager API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartFundsManager" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartFundsManagerAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SmartFundsManager API" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartFundsManager" type="462c0819:PsiDirectoryNode" />
-              <item name="SmartFundsManagerAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +236,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.DatabaseMigration">
+    <configuration name="DatabaseMigration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SmartFundsManager API" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/DatabaseMigration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SmartFundsManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SmartFundsManager API" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,6 +281,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DatabaseMigration" />
         <item itemvalue="Python.SmartFundsManager" />
       </list>
     </recent_temporary>
@@ -326,7 +317,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,27 +394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="e#197#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/IndexModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
-          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -446,8 +420,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/DatabaseMigration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="e#197#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/db.sqlite">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
