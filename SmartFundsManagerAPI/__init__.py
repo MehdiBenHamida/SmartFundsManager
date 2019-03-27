@@ -31,6 +31,8 @@ cors = CORS(app)
 
 # import the blueprints
 from SmartFundsManagerAPI.Controllers.IndexController import index
+from SmartFundsManagerAPI.Controllers.ProductController import product
 
 # register the blueprints here
 app.register_blueprint(index)
+app.register_blueprint(product)

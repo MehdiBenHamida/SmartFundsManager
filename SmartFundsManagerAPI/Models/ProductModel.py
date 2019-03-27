@@ -1,3 +1,11 @@
+"""
+ # Title: Smart Fund Manager
+ # File: ProductModel.py
+ # Description: Define product data structure and main CRUD methods
+ # Author: Mèhdi Ben Hamida
+ # Company: **************
+"""
+
 from SmartFundsManagerAPI import db, ma
 
 

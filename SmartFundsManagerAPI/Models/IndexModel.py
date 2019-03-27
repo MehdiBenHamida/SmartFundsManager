@@ -1,3 +1,11 @@
+"""
+ # Title: Smart Fund Manager
+ # File: IndexController.py
+ # Description: The application default controller
+ # Author: Mèhdi Ben Hamida
+ # Company: **************
+"""
+
 from SmartFundsManagerAPI import db, ma
 
 

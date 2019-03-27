@@ -1,7 +1,7 @@
 """
  # Title: Smart Fund Manager
- # File: Settings.py
- # Description: Define the logger methods to log to log file
+ # File: DatabaseMigration.py
+ # Description: Create the database file (suggested solution: sqlite)
  # Author: Mèhdi Ben Hamida
  # Company: **************
 """
