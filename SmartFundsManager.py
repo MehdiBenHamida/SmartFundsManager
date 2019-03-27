@@ -8,7 +8,7 @@
 """
 
 from SmartFundsManagerAPI.Utilities.Logger import *
-from SmartFundsManagerAPI.Utilities.settings import settings
+from SmartFundsManagerAPI.Utilities.Settings import settings
 from SmartFundsManagerAPI import app
 
 if __name__ == '__main__':

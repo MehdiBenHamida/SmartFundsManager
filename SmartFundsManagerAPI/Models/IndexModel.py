@@ -1,4 +1,4 @@
-from SmartFundsManagerAPI import db
+from SmartFundsManagerAPI import db, ma
 
 
 class Index(db.model):
@@ -26,4 +26,12 @@ class Product(db.Model):
         self.price = price
         self.quantity = quantity
 
-    
+
+class ProductSchema(ma.Schema):
+    class Meta:
+        fields = ('id', 'name', 'description', 'price', 'quantity')
+
+
+# initialize the schema
+product_schema = ProductSchema(strict=True)
+products_schema = ProductSchema(many=True, strict=True)

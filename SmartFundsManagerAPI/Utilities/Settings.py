@@ -1,6 +1,6 @@
 """
  # Title: Smart Fund Manager
- # File: settings.py
+ # File: Settings.py
  # Description: Define the logger methods to log to log file
  # Author: Mèhdi Ben Hamida
  # Company: **************

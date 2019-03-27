@@ -8,7 +8,7 @@
 
 import os
 import pkg_resources
-from SmartFundsManagerAPI.Utilities.settings import settings
+from SmartFundsManagerAPI.Utilities.Settings import settings
 from datetime import datetime
 from SmartFundsManagerAPI.Utilities.Colors import Colors
 
