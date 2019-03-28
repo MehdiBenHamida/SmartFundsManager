@@ -14,7 +14,7 @@ from SmartFundsManagerAPI.Utilities.Logger import *
 # create a new blueprint for the controller
 product = Blueprint('product', __name__)
 
-
+# TODO: does not work properly, please fix it!
 @product.route('/product', methods=['POST'])
 def add_product():
     try:
