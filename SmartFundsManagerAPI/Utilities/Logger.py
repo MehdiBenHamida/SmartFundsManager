@@ -152,3 +152,5 @@ def log_warning(msg, code):
     except Exception as e:
         time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print(Colors.ERROR+'['+time+']:[ERROR]:[local]:(not in log file)'+str(e)+Colors.ENDC)
+
+# TODO: dix the log file header when first
