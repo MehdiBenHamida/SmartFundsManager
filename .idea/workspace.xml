@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c17cce-417a-4c26-832d-df62d3fdfa9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/ProductController.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/ProductController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/Models/ErrorModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SmartFundsManagerAPI/Models/ProductModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/SmartFundsManagerAPI/Models/ProductModel.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8054435">
+    <splitter split-orientation="horizontal" split-proportion="0.4744898">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -23,19 +25,19 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/ProductModel.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+                <state relative-caret-position="-143">
+                  <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/ProductController.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
+                <state relative-caret-position="10">
                   <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
                   <folding>
                     <element signature="e#171#182#0" expanded="true" />
@@ -88,8 +90,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/IndexController.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="194">
-                  <caret line="41" column="19" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="19" />
+                <state relative-caret-position="646">
+                  <caret line="41" column="19" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="19" />
                   <folding>
                     <element signature="e#172#183#0" expanded="true" />
                   </folding>
@@ -130,14 +132,23 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/IndexController.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-132">
+                <state relative-caret-position="17">
                   <caret line="35" column="33" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="19" />
                   <folding>
                     <element signature="e#172#183#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/ErrorModel.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -196,9 +207,10 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Models/IndexModel.py" />
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/DatabaseMigration.py" />
-        <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Models/ProductModel.py" />
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py" />
         <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/ProductController.py" />
+        <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Models/ProductModel.py" />
+        <option value="$PROJECT_DIR$/SmartFundsManagerAPI/Models/ErrorModel.py" />
       </list>
     </option>
   </component>
@@ -214,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,6 +260,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,6 +346,14 @@
       <option name="presentableId" value="Default" />
       <updated>1553014869871</updated>
     </task>
+    <task id="LOCAL-00001" summary="[WIP]: Project format">
+      <created>1553792821595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553792821595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -349,7 +369,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21468475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21787709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -360,7 +380,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49960095" visible="true" weight="0.32247558" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960095" visible="true" weight="0.32247558" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039905" side_tool="true" weight="0.32247558" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -369,6 +389,10 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[WIP]: Project format" />
+    <option name="LAST_COMMIT_MESSAGE" value="[WIP]: Project format" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/SmartFundsManager.py" />
@@ -424,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/ProductModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Utilities/Security.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -457,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="425">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding>
             <element signature="e#197#220#0" expanded="true" />
           </folding>
@@ -466,11 +483,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/IndexModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManager.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/IndexController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="17">
+          <caret line="35" column="33" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="19" />
           <folding>
             <element signature="e#172#183#0" expanded="true" />
           </folding>
@@ -497,11 +510,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Controllers/ProductController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="10">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="e#171#182#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/ProductModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SmartFundsManagerAPI/Models/ErrorModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
